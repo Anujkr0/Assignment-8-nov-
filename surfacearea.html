@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function comwalls(sqmt , w , h){
+            let wallarea = w * h
+            let comwalls = sqmt/wallarea
+
+            return Math.floor(comwalls)
+        }
+
+        console.log("the no of walls complete are" , comwalls(50 , 8 , 4))
+    </script>
+</body>
+</html>
